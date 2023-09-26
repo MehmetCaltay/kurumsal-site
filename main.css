@@ -1,0 +1,140 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bottomLine{
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 20px ;
+    
+}
+.line{
+    border-left: 1px solid #cfcfcf;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.topText{
+    color: rgba(51, 51, 51, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Navbar Start */
+a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 20px;
+}
+.responsiveNav{
+    display: none;
+}
+.toggleNav{
+    display: none;
+}
+.show{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.click{
+    padding: 9px;
+    color: #333333;
+    border: none;
+    background-color: white;
+}
+
+@media (max-width: 992px) { 
+    .Navbar{
+        display: none;
+    }
+    .bottomLine{
+        display: none;
+    }
+    .responsiveNav{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        padding: 10px;
+    }
+    .background{
+        border-radius: 9px;
+        background-color: #F4F6FA;
+        height: 400px !important;
+    }
+}
+/* Navbar End */
+.mainHeader{
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 126.667% */
+}
+.generalText{
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sectionTextMain{
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sectionText{
+    color: rgba(51, 51, 51, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.background{
+    border-radius: 9px;
+    background-color: #F4F6FA;
+    width: auto;
+    height: 260px;
+}
+.textDec{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.loginBack{
+    background-image: url(Assets/logim.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+form .sectionTextMain{
+    color: #333;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+a{
+    color: white;
+}
