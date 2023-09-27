@@ -1,0 +1,11 @@
+.background-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(Assets/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+input{
+    margin: 20px;
+}
